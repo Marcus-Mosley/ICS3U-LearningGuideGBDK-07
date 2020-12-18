@@ -2,7 +2,7 @@
 //
 // Created by Marcus A. Mosley
 // Created on December 2020
-// This program plays a sound
+// This program plays noise
 
 #include <gb/gb.h>
 #include <stdio.h>
@@ -40,7 +40,7 @@ void main() {
             // bit 2-0 - Dividing Ratio of Frequencies (r)
             // The amplitude is randomly switched between high and low
             //     at the given frequency.
-            // A higher frequency will make the noise to appear 'softer'.
+            // A higher frequency will make the noise appear 'softer'.
             // When Bit 3 is set, the output will become more regular, and
             //     some frequencies will sound more like Tone than Noise.
             // 0011 0000 is 0x30, shift clock frequency 3, step 0,
